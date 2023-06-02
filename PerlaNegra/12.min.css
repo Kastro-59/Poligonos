@@ -1,0 +1,520 @@
+.repro12 .player-wpr {
+    max-width: 400px;
+    min-width: 270px;
+    height: 400px;
+    background-color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 1px 1px 2px #000000;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 0px;
+    overflow: hidden
+}
+.repro12 .blur, .repro12 .player-ctr {
+    height: 400px;
+    position: absolute;
+    top: 0
+}
+.repro12 .player-ctr {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 10
+}
+.repro12 .blur {
+    width: 100%;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    transform: scale(1.00);
+    opacity: .5;
+    z-index: 1
+}
+.repro12 .album-cover-wpr {
+    width: 250px;
+    margin: 0 0px
+}
+.repro12 .album-cover {
+    width: 250px;
+    height: 250px;
+    -webkit-mask-image: url(mask0250.png);
+    mask-image-size: cover;
+    background: url(https://i.postimg.cc/m2ztfCrN/star.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    margin: 4px 4px 0;
+    border-radius: 0px;
+    z-index: 2
+}
+.tapa, .album-cover:before {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin: 0px 5px 0;
+    background: url("mask0250.png");
+    z-index: 3
+}
+.repro12 .album-cover2 {
+    width: 240px;
+    height: 240px;
+    -webkit-mask-image: url(disco.png);
+    mask-image-size: cover;
+    background: url(disco.png);
+    position: absolute;
+    border-radius: 100%;
+    right: 5px;
+    top: 9px;
+    opacity: 0.5;
+    z-index: -1;
+    overflow: hidden;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+}
+.is-playing .album-cover2 {
+    right: 145px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.vinyl {
+    width: 240px;
+    height: 240px;
+    -webkit-mask-image: url(disco.png);
+    mask-image-size: cover;
+    background: url(disco.png);
+    position: absolute;
+    border-radius: 100%;
+    right: 5px;
+    top: 9px;
+    z-index: -2;
+    overflow: hidden;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+}
+.is-playing .vinyl {
+    right: 145px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.repro12 .track-info-wpr {
+    max-width: 440px;
+    height: 28px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    margin: 8px 4px 0;
+    padding-top: 0px;
+    border-left: 1px solid rgba(255, 255, 255, .27);
+    border-right: 1px solid rgba(255, 255, 255, .27);
+    overflow: hidden;
+    z-index: 4
+}
+.repro12 .track-info-ctr {
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden
+}
+.repro12 .songtitle {
+    color: rgba(255, 255, 255, 1)
+}
+.repro12 .artist-name {
+    color: rgba(255, 255, 255, 1)
+}
+.repro12 .servertitle {
+    max-width: 400px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, .94);
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 84px;
+    margin: 0 auto
+}
+.repro12 .listeners {
+    max-width: 100px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 8px;
+    right: 10px
+}
+.repro12 .history-artist-name, .repro12 .history-songtitle {
+    max-width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.repro12 .listeners:before {
+    content: "\f0c0";
+    font-size: 16px;
+    padding-right: 6px;
+    vertical-align: top
+}
+.repro12 .ppBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer
+}
+.repro12 .play-btn:before {
+    content: "\f144";
+    color: rgba(251, 255, 255, 1.00);
+}
+.repro12 .stop-btn:before {
+    content: "\f28b";
+    color: rgba(255, 255, 255, 1.00);
+}
+.repro12 .icons-left, .repro12 .icons-right {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, .92);
+    cursor: pointer
+}
+.repro12 .icons-left-wpr {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    z-index: 11
+}
+.repro12 .icons-right-wpr {
+    text-align: left;
+    position: absolute;
+    bottom: 12px;
+    right: 116px;
+    z-index: 11
+}
+.repro12 .icons-left {
+    text-align: center;
+    margin-right: 28px
+}
+.repro12 .icons-right {
+    text-align: left;
+    margin-left: 28px
+}
+.repro12 .icons-serverinfo:before {
+    content: "\f0c9"
+}
+.repro12 .icons-history:before {
+    content: "\f1da"
+}
+.repro12 .icons-share:before {
+    content: "\f1e0"
+}
+.repro12 .icons-volume1:before {
+    content: "\f026"
+}
+.repro12 .icons-volume2:before {
+    content: "\f027"
+}
+.repro12 .icons-volume3:before, .repro12 .icons-volumeM:before {
+    content: "\f028"
+}
+.repro12 .icons-volumeM {
+    display: none
+}
+.repro12 .icons-volumeM2:before {
+    content: "\f026"
+}
+.repro12 .icons-close:before {
+    content: "\f00d"
+}
+.repro12 .volume-slider {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    display: auto;
+    z-index: 10
+}
+.repro12 input[type=range] {
+    width: 100px;
+    height: 6px;
+    background: 0 0;
+    padding: 6px 0;
+    transform: rotate(0deg);
+    transform-origin: bottom;
+    -webkit-appearance: none;
+    cursor: pointer
+}
+.repro12 input[type=range]:focus {
+    outline: 0
+}
+.repro12 input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, .34);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    animate: .2s
+}
+.repro12 input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(255, 255, 255, .54)
+}
+.repro12 input[type=range]::-webkit-slider-thumb {
+    width: 12px;
+    height: 12px;
+    background: #000;
+    margin-top: -5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none
+}
+.repro12 input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, .54);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    animate: .2s
+}
+.repro12 input[type=range]::-moz-range-thumb {
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    cursor: pointer
+}
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
+    .repro12 input[type=range] {
+        width: 90px;
+        height: 16px;
+        background: 0 0;
+        margin-top: 0;
+        padding: 6px 0;
+        cursor: pointer
+    }
+}
+.repro12 input[type=range]::-ms-tooltip {
+    display: none
+}
+.repro12 input[type=range]::-ms-track {
+    width: 100%;
+    height: 6px;
+    background: 0 0;
+    color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0 transparent;
+    cursor: pointer;
+    animate: .2s
+}
+.repro12 input[type=range]::-ms-fill-lower {
+    background: rgba(255, 255, 255, .54);
+    border: 0;
+    border-radius: 8px
+}
+.repro12 input[type=range]::-ms-fill-upper {
+    background: rgba(255, 255, 255, .54);
+    border: 0;
+    border-radius: 8px
+}
+.repro12 input[type=range]::-ms-thumb {
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    cursor: pointer
+}
+.repro12 input[type=range]:focus::-ms-fill-lower {
+    background: rgba(255, 255, 255, .54)
+}
+.repro12 input[type=range]:focus::-ms-fill-upper {
+    background: rgba(255, 255, 255, .54)
+}
+.repro12 .history-wpr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 12px auto 0;
+    z-index: 15
+}
+.repro12 .history-title {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 22px 15px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(255, 255, 255, .7)
+}
+.repro12 .row-wpr {
+    height: 50px;
+    background-color: rgba(0, 0, 0, .2);
+    position: relative;
+    margin: 0 22px 5px;
+    border-radius: 5px
+}
+.repro12 .history-cover {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    border-radius: 50%
+}
+.history-track-info {
+    text-align: left;
+    padding-left: 55px;
+    padding-top: 5px
+}
+.repro12 .rowNum, .repro12 .social-share-wpr {
+    text-align: center;
+    position: absolute;
+    right: 0
+}
+.repro12 .history-songtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1)
+}
+.repro12 .history-artist-name {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .7)
+}
+.repro12 .rowNum {
+    width: 38px;
+    height: 50px;
+    font-size: 42px;
+    color: rgba(255, 255, 255, .2);
+    top: 0
+}
+.repro12 .social-share-wpr {
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    bottom: 12px;
+    left: 0;
+    margin: 0 50px;
+    padding: 0px 0;
+    border-radius: 4px;
+    overflow: hidden;
+    display: auto;
+    z-index: 11
+}
+.repro12 .social-link {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer
+}
+.repro12 .social-link-facebook {
+    background: transparent
+}
+.repro12 .social-link-facebook:before {
+    content: "\f39e"
+}
+.repro12 .social-link-twitter {
+    background: transparent
+}
+.repro12 .social-link-twitter:before {
+    content: "\f099"
+}
+.repro12 .display {
+    display: block
+}
+.repro12 .nodisplay {
+    display: none
+}
+@media only screen and (max-width:600px) {
+    .repro12 .track-info-wpr {
+        margin: 28px 42px 0
+    }
+    .repro12 .listeners {
+        max-width: 100px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, .7);
+        position: absolute;
+        top: 32px;
+        right: 16px
+    }
+    .repro12 .listeners:before {
+        content: "\f0c0";
+        font-size: 12px;
+        padding-right: 5px;
+        vertical-align: top
+    }
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
+.marquee {
+    white-space: nowrap;
+    position: relative;
+    transform: translateX(-50%);
+    display: inline-block;
+    left: 50%;
+    padding-top: 0;
+    animation: linear infinite;
+    overflow: hidden;
+    text-align: left;
+    animation-duration: 10s;
+    animation-name: movement-smooth;
+    animation-direction: normal
+}
+.marquee:hover {
+    animation-play-state: paused
+}
+.marquee.marquee-speed-custom:before {
+    animation-duration: inherit
+}
+.marquee.marquee-speed-normal:before {
+    animation-duration: 10s
+}
+@keyframes movement-smooth {
+    from {
+        transform: translateX(0);
+        left: 100%
+    }
+    to {
+        transform: translateX(-100%);
+        left: 0
+    }
+}
+.marquee.marquee-movement-smooth:before {
+    animation-name: movement-smooth
+}
+.marquee.marquee-direction-left:before, .marquee.marquee-direction-normal:before {
+    animation-direction: normal
+}
