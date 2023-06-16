@@ -6,7 +6,8 @@
 // https://www.flashradio.info
 /////////////////////////////////////////////////////
 error_reporting(0);
-header('Content-type: text/plain');
+header('Content-type: text/plain;  charset=UTF-8');
+//header('Content-type: text/plain;  charset=ISO-8859-1');
 header('Pragma: public'); 
 header('Expires: Sat, 26 Jul 1997 05:00:00 GMT');                  
 header('Last-Modified: '.gmdate('D, d M Y H:i:s') . ' GMT');
@@ -16,7 +17,7 @@ header('Pragma: no-cache');
 header('Expires: 0'); 
 
 if (isset($_POST['url']) && $_POST['url'] != ""):
-    echo getMp3StreamTitle($_POST['url']);
+    echo (getMp3StreamTitle($_POST['url']));
 else:
 	echo "";
 endif;
