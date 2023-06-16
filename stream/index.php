@@ -24,7 +24,7 @@
  
  <div class="disc">  
 </div>
-</head>
+
 <body>
 &nbsp;&nbsp; <span id="Clock">12:57:05</span>
 
