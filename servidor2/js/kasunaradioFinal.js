@@ -769,7 +769,7 @@
 							
 case "radiozeno":
 ! function() {
-var t = "https://kastro-59.github.io/Poligonos/servidor2/server/home.html" + zn ;
+var t = "https://kastro-59.github.io/Poligonos/servidor2/server/home.html?=" + zn ;
 e.ajax({
 dataType: "text",
 method: "GET",
