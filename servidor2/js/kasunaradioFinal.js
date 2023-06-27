@@ -769,7 +769,7 @@
 							
 case "radiozeno":
 ! function() {
-var t = "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/" + zn ;
+var t = "https://kastro-59.github.io/Poligonos/servidor2/server/?" + zn ;
 e.ajax({
 dataType: "text",
 method: "GET",
