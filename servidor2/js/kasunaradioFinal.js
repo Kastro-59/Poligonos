@@ -769,7 +769,7 @@
 							
 case "radiozeno":
 ! function() {
-var t = "https://kastro-59.github.io/Poligonos/servidor2/server/index.php?sid=1/emertvc73mruv" ;
+var t = "https://fuendesing.000webhostapp.com/servidor/server/index.php?sid=1" ;
 e.ajax({
 dataType: "text",
 method: "GET",
