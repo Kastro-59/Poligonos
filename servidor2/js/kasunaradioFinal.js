@@ -769,7 +769,7 @@
 							
 case "radiozeno":
 ! function() {
-var t = "https://fuendesing.000webhostapp.com/servidor/server/index.php?sid=1" + zn ;
+var t = "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/" + zn ;
 e.ajax({
 dataType: "text",
 method: "GET",
