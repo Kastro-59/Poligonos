@@ -3,7 +3,7 @@
 const RADIO_NAME = 'Dinarama-Radio';
 
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY or AZURACAST. eg : spotify 
-var API_SERVICE = 'DEEZER';
+var API_SERVICE = 'ITUNES';
 
 var zenoid = '6pfcuhe0mwzuv'
 
