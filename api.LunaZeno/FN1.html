@@ -849,7 +849,7 @@
 							
 case "radiozeno":
 ! function() {
-var t = "https://api.streamafrica.net/zeno/index.php?z=" + zn + "/?rand=" + Math.random();
+var t = "https://api.streamafrica.net/zeno/index.php?z=" + zn ;
 e.ajax({
 dataType: "text",
 method: "GET",
@@ -2524,6 +2524,7 @@ document.write("" + textosemana[diasemana] + " " + diames + " de " + textomes[me
 </script><br><br><br><br><br><br><br>
 
   <script>
+ jQuery(document).ready(function($) {   
   $("#kastroplayer").kasunaradio({
   token: "ZFNWW2FiXlNrV2QgXltgXQ==",  
   userinterface: "big",
@@ -2565,6 +2566,7 @@ document.write("" + textosemana[diasemana] + " " + diames + " de " + textomes[me
   corsproxy: "",
   autoplay:"true",
     });
+  });
 </script>         
 
 </body>
