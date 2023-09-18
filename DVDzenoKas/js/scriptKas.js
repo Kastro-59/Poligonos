@@ -24,7 +24,7 @@ window.onload = function () {
     page.setVolume();
 
     var player = new Player();
-    player.play();
+    player.pause();
 
     getStreamingData();
     // Interval to get streaming data in miliseconds
