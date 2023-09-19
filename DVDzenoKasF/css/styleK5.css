@@ -220,7 +220,7 @@ currentCoverArt {
     font-size: 25px;
     margin-top: 7px;
 }
-
+*/
 .volume-slide {
   display:none!important  
 }
@@ -233,7 +233,7 @@ currentCoverArt {
     color: #fff;
     text-decoration: underline;
 }
-*/
+
 .lyrics {
     text-transform: uppercase;
     text-decoration: underline;
