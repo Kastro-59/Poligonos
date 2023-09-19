@@ -74,8 +74,8 @@ body {
    left: 100%;
    }
 	}
-
-bg-mask {
+/*
+.bg-mask {
 	width: 338px;            
 	height: 338px;          
 	background: url()center no-repeat;
@@ -85,9 +85,9 @@ bg-mask {
 	overflow: hidden;
 	left: 234px;
 	top: 25px;
-  	  -webkit-animation: spin 2.8s linear infinite;
-    -moz-animation: spin 2.8s linear infinite;
-   animation: spin 2.8s linear infinite;
+  	  -webkit-animation: spin 4.8s linear infinite;
+    -moz-animation: spin 4.8s linear infinite;
+   animation: spin 4.8s linear infinite;
 	z-index: -6;
 	
    }
@@ -110,7 +110,7 @@ bg-mask {
   }
    }
 
-
+*/
 
 .web-player {
     width:360px; 
@@ -134,7 +134,7 @@ bg-mask {
 }
 
 
-
+/*
 currentCoverArt {
 	width: 330px;
 	height: 330px;
@@ -181,7 +181,7 @@ currentCoverArt {
    }
    }
 
-
+*/
 .logo {
     display: none;
 }
@@ -220,7 +220,7 @@ currentCoverArt {
     font-size: 25px;
     margin-top: 7px;
 }
-*/
+
 .volume-slide {
   display:none!important  
 }
