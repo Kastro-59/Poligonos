@@ -192,7 +192,7 @@ currentCoverArt {
 }
 
 .info-current-song h2 {
-    font-size: 35px;
+    font-size: 25px;
     color: #ff0023;
     text-transform: uppercase;
     font-weight: 800;
@@ -200,7 +200,7 @@ currentCoverArt {
 }
 
 .info-current-song h3 {
-    font-size: 25px;
+    font-size: 20px;
    color: #ff0023;
     font-weight: 600;
 }
@@ -454,7 +454,7 @@ input[type=range]::-ms-thumb {
     }
 
     .info-current-song {
-        margin-top: 40px;
+        margin-top: 20px;
         left: 0px;
         text-align: center;
     }
