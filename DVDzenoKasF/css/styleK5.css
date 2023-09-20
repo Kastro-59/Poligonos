@@ -188,11 +188,11 @@ currentCoverArt {
 
 .info-current-song {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .info-current-song h2 {
-    font-size: 25px;
+    font-size: 20px;
     color: #ff0023;
     text-transform: uppercase;
     font-weight: 800;
@@ -200,7 +200,7 @@ currentCoverArt {
 }
 
 .info-current-song h3 {
-    font-size: 20px;
+    font-size: 15px;
    color: #ff0023;
     font-weight: 600;
 }
@@ -454,9 +454,9 @@ input[type=range]::-ms-thumb {
     }
 
     .info-current-song {
-        margin-top: 20px;
+        margin-top: 130px;
         left: 0px;
-        text-align: center;
+        text-align: left;
     }
 /*
     .volume-control {
