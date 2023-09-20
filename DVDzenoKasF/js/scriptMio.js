@@ -15,7 +15,7 @@
 			servertitle: "My Radio Title", //For Shoutcast v2 server
             show_listeners: true,    
             src: "",
-            volume: 1,			
+            volume: 0.5,			
             autoplay: true
         }, options);
         var thisObj;
