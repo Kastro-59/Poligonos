@@ -9,16 +9,15 @@ html, body {
 
 body {
 
-   
-    flex-flow: row;
-    justify-content: center;
-    overflow-x: hidden;
+	width:604px; 
+	height:360px;
+	background-size: cover;
 }
 
 
 .cover-site {
     width: 604px;
-	height: 355px;
+	height: 360px;
 	background: url() no-repeat;
 	position: absolute;
 	background-size: cover;
@@ -29,21 +28,21 @@ body {
 /* FONDO DESENFOQUE */
 
 #bgCover {
-	width: 325px;
+	width: 330px;
 	height: 355px;
 	background:url() center no-repeat ;
 	background-size: cover;
 	position: absolute;
-	margin: -25px;
-	top: 25px;
+	margin: -31px;
+	top: 30px;
 	left: 0px
 	border-radius: 1px;
 	-webkit-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	-moz-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	z-index: -11;
-	left: 82px;
-	box-shadow: 0 0 2px #,
+	left: 85px;
+	box-shadow: 0 0 5px #,
    0 0 25px #180df8,
    0 0 50px #d2e40e,
    0 0 200px #180df8;
@@ -189,7 +188,7 @@ currentCoverArt {
 
 .info-current-song {
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 .info-current-song h2 {
@@ -455,9 +454,9 @@ input[type=range]::-ms-thumb {
     }
 
     .info-current-song {
-        margin-top: 130px;
+        margin-top: 20px;
         left: 0px;
-        text-align: left;
+        text-align: center;
     }
 /*
     .volume-control {
