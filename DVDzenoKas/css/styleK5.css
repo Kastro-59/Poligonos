@@ -9,15 +9,16 @@ html, body {
 
 body {
 
-	width:604px; 
-	height:364px;
-	background-size: cover;
+   
+    flex-flow: row;
+    justify-content: center;
+    overflow-x: hidden;
 }
 
 
 .cover-site {
     width: 604px;
-	height: 364px;
+	height: 355px;
 	background: url() no-repeat;
 	position: absolute;
 	background-size: cover;
@@ -28,21 +29,21 @@ body {
 /* FONDO DESENFOQUE */
 
 #bgCover {
-	width: 382px;
-	height: 347px;
+	width: 325px;
+	height: 355px;
 	background:url() center no-repeat ;
 	background-size: cover;
 	position: absolute;
-	margin: -21px;
-	top: 30px;
+	margin: -25px;
+	top: 25px;
 	left: 0px
 	border-radius: 1px;
 	-webkit-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	-moz-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	z-index: -11;
-	left: 55px;
-	box-shadow: 0 0 5px #,
+	left: 82px;
+	box-shadow: 0 0 2px #,
    0 0 25px #180df8,
    0 0 50px #d2e40e,
    0 0 200px #180df8;
@@ -74,8 +75,8 @@ body {
    left: 100%;
    }
 	}
-
-bg-mask {
+/*
+.bg-mask {
 	width: 338px;            
 	height: 338px;          
 	background: url()center no-repeat;
@@ -85,9 +86,9 @@ bg-mask {
 	overflow: hidden;
 	left: 234px;
 	top: 25px;
-  	  -webkit-animation: spin 2.8s linear infinite;
-    -moz-animation: spin 2.8s linear infinite;
-   animation: spin 2.8s linear infinite;
+  	  -webkit-animation: spin 4.8s linear infinite;
+    -moz-animation: spin 4.8s linear infinite;
+   animation: spin 4.8s linear infinite;
 	z-index: -6;
 	
    }
@@ -110,11 +111,11 @@ bg-mask {
   }
    }
 
-
+*/
 
 .web-player {
-    width:420px; 
-    height:364px;
+    width:360px; 
+    height:360px;
     color: #fff;
     padding: 5px;
     position: absolute;
@@ -134,7 +135,7 @@ bg-mask {
 }
 
 
-
+/*
 currentCoverArt {
 	width: 330px;
 	height: 330px;
@@ -181,7 +182,7 @@ currentCoverArt {
    }
    }
 
-
+*/
 .logo {
     display: none;
 }
@@ -192,7 +193,7 @@ currentCoverArt {
 }
 
 .info-current-song h2 {
-    font-size: 20px;
+    font-size: 22px;
     color: #ff0023;
     text-transform: uppercase;
     font-weight: 800;
@@ -200,7 +201,7 @@ currentCoverArt {
 }
 
 .info-current-song h3 {
-    font-size: 18px;
+    font-size: 17px;
    color: #ff0023;
     font-weight: 600;
 }
@@ -233,7 +234,7 @@ currentCoverArt {
     color: #fff;
     text-decoration: underline;
 }
-*/
+
 .lyrics {
     text-transform: uppercase;
     text-decoration: underline;
@@ -253,10 +254,10 @@ currentCoverArt {
     text-decoration: none;
     color: #fff;
 }
-/*
+/
 .modal-content {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #fff !important;
+    color: transparent !important;
     border-radius: 20px;
 }
 /*
@@ -454,7 +455,7 @@ input[type=range]::-ms-thumb {
     }
 
     .info-current-song {
-        margin-top: 120px;
+        margin-top: 130px;
         left: 0px;
         text-align: left;
     }
