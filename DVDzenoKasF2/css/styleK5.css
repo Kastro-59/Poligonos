@@ -455,7 +455,7 @@ input[type=range]::-ms-thumb {
     }
 
     .info-current-song {
-        margin-top: 130px;
+        margin-top: 150px;
         left: 0px;
         text-align: left;
     }
