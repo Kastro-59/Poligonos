@@ -254,10 +254,10 @@ currentCoverArt {
     text-decoration: none;
     color: #fff;
 }
-/*
+/
 .modal-content {
     background-color: rgba(0, 0, 0, 0.8);
-    color: #fff !important;
+    color: transparent !important;
     border-radius: 20px;
 }
 /*
