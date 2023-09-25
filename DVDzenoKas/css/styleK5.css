@@ -42,72 +42,20 @@ body {
 	box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	z-index: -11;
 	left: 55px;
-	box-shadow: 0 0 5px #,
-   0 0 25px #180df8,
-   0 0 50px #d2e40e,
-   0 0 200px #180df8;
-
-   }
-   a:nth-child(1){
-   filter: hue-rotate(270deg);
-   }
-   a:nth-child(2){
-   filter: hue-rotate(110deg);
-   }
-   a span{
-   position: absolute;
-   display: block;
-   }
-   a span:nth-child(1){
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 2px;
-   background: linear-gradient(90deg,transparent,#DF73FF);
-   animation: animate1 1s linear infinite;
-   }
-   @keyframes animate1{
-   0%{
-   left: -100%;
-   }
-   50%,100%{
-   left: 100%;
-   }
+	
 	}
 
-bg-mask {
-	width: 338px;            
-	height: 338px;          
+.bg-mask {
+	width: 330px;            
+	height: 330px;          
 	background: url()center no-repeat;
 	background-size: cover;
 	position: absolute;
-	z-index: -10;
+	z-index: -16;
 	overflow: hidden;
 	left: 234px;
-	top: 25px;
-  	  -webkit-animation: spin 2.8s linear infinite;
-    -moz-animation: spin 2.8s linear infinite;
-   animation: spin 2.8s linear infinite;
-	z-index: -6;
-	
-   }
-   }
-
-    @-moz-keyframes spin {
-    100% {
-     -moz-transform: rotate(360deg);
-   }
-   }
-   @-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-   }
-   @keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+	top: 20px;
+  
    }
 
 
@@ -115,7 +63,7 @@ bg-mask {
 .web-player {
     width:420px; 
     height:364px;
-    color: #fff;
+    color: transparent;
     padding: 5px;
     position: absolute;
     z-index: 3;
@@ -133,62 +81,33 @@ bg-mask {
     
 }
 
+/*
 
-
-currentCoverArt {
+#currentCoverArt {
 	width: 330px;
 	height: 330px;
-	background: url()center no-repeat;
+	background: url(https://kastro-59.github.io/star/CD/lBntdQ9.png)center no-repeat;
 	background-size: cover;
 	position: absolute;
 	border-radius: 100%;
 	-webkit-box-shadow: 2px 3px 30px 0px rgba();
 	-moz-box-shadow: 2px 3px 30px 0px rgba();
 	box-shadow: 2px 3px 30px 0px rgba();
-	z-index: -5;
+	z-index: -10;
 	overflow: hidden;
-	left: 236px;
-	top: 25px;
-	box-shadow: 0 0 5px #,
-   0 0 25px #,
-   0 0 50px #,
-   0 0 200px #;
-   }
-   a:nth-child(1){
-   filter: hue-rotate(270deg);
-   }
-   a:nth-child(2){
-   filter: hue-rotate(110deg);
-   }
-   a span{
-   position: absolute;
-   display: block;
-   }
-   a span:nth-child(1){
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 2px;
-   background: linear-gradient(90deg,transparent,#);
-   animation: animate1 1s linear infinite;
-   }
-   @keyframes animate1{
-   0%{
-   left: -100%;
-   }
-   50%,100%{
-   left: 100%;
-   }
+	left: 83px;
+	top: 11px;
+
    }
 
-
+*/
 .logo {
     display: none;
 }
 
 .info-current-song {
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 .info-current-song h2 {
@@ -220,7 +139,7 @@ currentCoverArt {
     font-size: 25px;
     margin-top: 7px;
 }
-*/
+
 .volume-slide {
   display:none!important  
 }
@@ -233,7 +152,7 @@ currentCoverArt {
     color: #fff;
     text-decoration: underline;
 }
-*/
+/
 .lyrics {
     text-transform: uppercase;
     text-decoration: underline;
@@ -253,7 +172,7 @@ currentCoverArt {
     text-decoration: none;
     color: #fff;
 }
-/
+*/
 .modal-content {
     background-color: transparent;
     color: transparent !important;
@@ -282,7 +201,7 @@ input[type=range]::-webkit-slider-runnable-track {
     cursor: pointer;
     animate: 0.2s;
     box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    background: #fff;
+    background: transparent;
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -290,7 +209,7 @@ input[type=range]::-webkit-slider-thumb {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background: #fff;
+    background: transparent;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -8px;
@@ -303,7 +222,7 @@ input[type=range]::-moz-range-track {
     cursor: pointer;
     animate: 0.2s;
     box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-    background: #fff;
+    background: transparent;
 }
 
 input[type=range]::-moz-range-thumb {
@@ -312,7 +231,7 @@ input[type=range]::-moz-range-thumb {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background: #fff;
+    background: transparent;
     cursor: pointer;
 }
 
@@ -330,13 +249,13 @@ input[type=range]::-ms-track {
 }
 
 input[type=range]::-ms-fill-lower {
-    background: #fff;
+    background: transparent;
     border: 0px solid #000101;
     box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
 }
 
 input[type=range]::-ms-fill-upper {
-    background: #fff;
+    background: transparent;
     border: 0px solid #000101;
     box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
 }
@@ -347,12 +266,11 @@ input[type=range]::-ms-thumb {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    background: #fff;
+    background: transparent;
     cursor: pointer;
 }
 
-
-.historic h2 {
+/*.historic h2 {
     color: #fff;
     border-bottom: 2px solid #fff;
     font-size: 16px;
@@ -384,8 +302,9 @@ input[type=range]::-ms-thumb {
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-image 1s;
 }
-*/
+/*
 /* COLOR TEXTO INFO ARTISTA */
+/*
 .historic .music-info {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -393,6 +312,7 @@ input[type=range]::-ms-thumb {
 
 
 /* COLOR TEXTO CANCION */
+/*
 
 .historic .music-info .song {
     width: 360px;
@@ -402,7 +322,7 @@ input[type=range]::-ms-thumb {
     margin-bottom: 10px;
     color: white;
 }
-
+/*
 @media(max-width: 360px) {
     .cover-album {
         max-width: 360px;
@@ -456,7 +376,7 @@ input[type=range]::-ms-thumb {
     .info-current-song {
         margin-top: 120px;
         left: 0px;
-        text-align: left;
+        text-align: center;
     }
 /*
     .volume-control {
