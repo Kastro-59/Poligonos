@@ -9,10 +9,13 @@ html, body {
 
 body {
 
-   
-    flex-flow: row;
-    justify-content: center;
-    overflow-x: hidden;
+    left: 0;
+    top: 0;
+    right: 50%;
+    bottom: 50%;
+    width:604px; 
+    height:360px;
+    background-size: cover;
 }
 
 
