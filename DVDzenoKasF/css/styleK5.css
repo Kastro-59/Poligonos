@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,800&display=swap');
-@import url('bootstrap.min.css');
+@import url('bootstrap.min1.css');
 
 html, body {
     
@@ -9,15 +9,19 @@ html, body {
 
 body {
 
-	width:604px; 
-	height:360px;
-	background-size: cover;
+    left: 0;
+    top: 0;
+    right: 50%;
+    bottom: 50%;
+    width:604px; 
+    height:360px;
+    background-size: cover;
 }
 
 
 .cover-site {
     width: 604px;
-	height: 360px;
+	height: 355px;
 	background: url() no-repeat;
 	position: absolute;
 	background-size: cover;
@@ -28,21 +32,21 @@ body {
 /* FONDO DESENFOQUE */
 
 #bgCover {
-	width: 330px;
+	width: 325px;
 	height: 355px;
 	background:url() center no-repeat ;
 	background-size: cover;
 	position: absolute;
-	margin: -31px;
-	top: 30px;
+	margin: -25px;
+	top: 25px;
 	left: 0px
 	border-radius: 1px;
 	-webkit-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	-moz-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
 	z-index: -11;
-	left: 85px;
-	box-shadow: 0 0 5px #,
+	left: 82px;
+	box-shadow: 0 0 2px #,
    0 0 25px #180df8,
    0 0 50px #d2e40e,
    0 0 200px #180df8;
@@ -188,7 +192,7 @@ currentCoverArt {
 
 .info-current-song {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .info-current-song h2 {
@@ -253,10 +257,10 @@ currentCoverArt {
     text-decoration: none;
     color: #fff;
 }
-/*
+/
 .modal-content {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff !important;
+    background-color: transparent;
+    color: transparent !important;
     border-radius: 20px;
 }
 /*
@@ -454,9 +458,9 @@ input[type=range]::-ms-thumb {
     }
 
     .info-current-song {
-        margin-top: 20px;
+        margin-top: 150px;
         left: 0px;
-        text-align: center;
+        text-align: left;
     }
 /*
     .volume-control {
