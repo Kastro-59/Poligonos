@@ -9,9 +9,13 @@ html, body {
 
 body {
 
-    flex-flow: row;
-    justify-content: center;
-    overflow-x: hidden;
+    left: 0;
+    top: 0;
+    right: 50%;
+    bottom: 50%;
+    width:604px; 
+    height:360px;
+    background-size: cover;
 }
 
 
@@ -107,7 +111,7 @@ body {
 
 .info-current-song {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .info-current-song h2 {
@@ -358,7 +362,7 @@ input[type=range]::-ms-thumb {
     }
 
     .web-player {
-        height: auto;
+        height: 364px;
         margin-top: 0;
     }
 
@@ -374,9 +378,9 @@ input[type=range]::-ms-thumb {
     }
 
     .info-current-song {
-        margin-top: 120px;
+        margin-top: 140px;
         left: 0px;
-        text-align: center;
+        text-align: left;
     }
 /*
     .volume-control {
