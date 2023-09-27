@@ -10,7 +10,7 @@ var zenoid = '6pfcuhe0mwzuv'
 var azuracast_nowplaying_url = ''
 
 // URL of SHOUTCast streaming without / on the final, eg: http://streaming.com:8080
-const URL_STREAMING = 'https://stream.zeno.fm/6pfcuhe0mwzuv.aac';
+const URL_STREAMING = 'https://stream.zeno.fm/6pfcuhe0mwzuv';
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
 const API_KEY = "722084e5ad8a078f47728ba92c01162e";
