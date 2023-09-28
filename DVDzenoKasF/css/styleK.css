@@ -189,7 +189,8 @@
 	border-right: 1px solid rgba(255,255,255,.);
 	overflow: hidden;
 	z-index: 4;
-	top: 700px;
+	display:none!important
+	top: 117px;
    }
 
    .Kastrostreaming .track-info-ctr {
