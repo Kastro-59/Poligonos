@@ -26,7 +26,7 @@ body {
 	position: absolute;
 	background-size: cover;
 	position: absolute;
-	z-index: -5;
+	z-index: -6;
 }
 
 /* FONDO DESENFOQUE */
@@ -34,7 +34,7 @@ body {
 #bgCover {
 	width: 382px;
 	height: 347px;
-	background:url(https://i.imgur.com/Bk9dYYB.png) center no-repeat ;
+	background:url() center no-repeat ;
 	background-size: cover;
 	position: absolute;
 	margin: -21px;
@@ -48,7 +48,7 @@ body {
 	left: 55px;
 	
 	}
-
+/*
 .bg-mask {
 	width: 330px;            
 	height: 330px;          
@@ -62,7 +62,7 @@ body {
   
    }
 
-
+*/
 
 .web-player {
     width:420px; 
@@ -85,26 +85,42 @@ body {
     
 }
 
-/*
-
 #currentCoverArt {
-	width: 330px;
-	height: 330px;
-	background: url(https://kastro-59.github.io/star/CD/lBntdQ9.png)center no-repeat;
-	background-size: cover;
-	position: absolute;
-	border-radius: 100%;
-	-webkit-box-shadow: 2px 3px 30px 0px rgba();
-	-moz-box-shadow: 2px 3px 30px 0px rgba();
-	box-shadow: 2px 3px 30px 0px rgba();
-	z-index: -10;
-	overflow: hidden;
-	left: 83px;
-	top: 11px;
-
+  width: 330px;
+  height: 330px;
+  background: url()center no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  border-radius: 100%;
+  -webkit-box-shadow: 2px 3px 30px 0px rgba();
+  -moz-box-shadow: 2px 3px 30px 0px rgba();
+  box-shadow: 2px 3px 30px 0px rgba();
+  z-index: -12;
+  overflow: hidden;
+  left: 109px;
+  top: 10px;
+        -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+   animation: spin 2.5s linear infinite;
    }
 
-*/
+    @-moz-keyframes spin {
+    100% {
+     -moz-transform: rotate(360deg);
+   }
+   }
+   @-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+   }
+   @keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+   }
 .logo {
     display: none;
 }
