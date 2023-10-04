@@ -14,15 +14,15 @@
   background: url(https://kastro-59.github.io/star/CD/lBntdQ9.png)center no-repeat;
   background-size: cover;
   position: absolute;
-  opacity: 0.8;
-  z-index: -6;
+  opacity: 0.9;
+  z-index: -10;
   overflow: hidden;
   left: 109px;
   top: 12px;
     -webkit-animation: spin 6s linear infinite;
     -moz-animation: spin 6s linear infinite;
    animation: spin 6s linear infinite;
-  z-index: -3;
+  z-index: -7;
   
    }
    }

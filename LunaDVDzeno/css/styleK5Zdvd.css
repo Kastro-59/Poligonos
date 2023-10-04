@@ -90,13 +90,13 @@ body {
   height: 305px;
   background: url(https://i.imgur.com/FCJxb2D.png)center no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.4;
   position: absolute;
   border-radius: 100%;
   -webkit-box-shadow: 2px 3px 30px 0px rgba();
   -moz-box-shadow: 2px 3px 30px 0px rgba();
   box-shadow: 2px 3px 30px 0px rgba();
-  z-index: -6;
+  z-index: -3;
   overflow: hidden;
   left: 74px;
   top: 8px;
