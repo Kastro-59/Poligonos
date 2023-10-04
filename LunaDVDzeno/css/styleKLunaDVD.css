@@ -1,0 +1,73 @@
+ .a {
+	left: 0;
+	top: 0;
+	right: 50%;
+	bottom: 50%;
+	width:420px; 
+	height:364px;
+	background-size: cover;
+ }
+
+  .disc{
+  width: 308px;            
+  height: 308px;          
+  background: url(https://kastro-59.github.io/star/CD/lBntdQ9.png)center no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.8;
+  z-index: -6;
+  overflow: hidden;
+  left: 109px;
+  top: 12px;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+   animation: spin 6s linear infinite;
+  z-index: -3;
+  
+   }
+   }
+
+    @-moz-keyframes spin {
+    100% {
+     -moz-transform: rotate(360deg);
+   }
+   }
+   @-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+   }
+   @keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+   }
+      #animation3{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  height: 45px;
+  width: 45px;
+  }
+   .data {
+     position: absolute;
+     font-family: 'Chela One', cursive;
+     font-size: 15px;
+     left: 120px;
+     top: 15px;
+     color: #6a0311;
+     width: 236px;
+     height: 19px;
+     z-index: 16;
+     border: 1px;
+  }
+   #Clock {
+     position: absolute;
+     top: 35px;
+     left: 200px;
+     width: 43px;
+     color: #6a0311;
+     font-family: 'Chela One', cursive;
+     font-size: 15px;
+  }
