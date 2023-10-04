@@ -86,23 +86,23 @@ body {
 }
 
 #currentCoverArt {
-  width: 330px;
-  height: 330px;
+  width: 328px;
+  height: 328px;
   background: url()center no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.8;
   position: absolute;
   border-radius: 100%;
-  -webkit-box-shadow: 2px 3px 30px 0px rgba();
-  -moz-box-shadow: 2px 3px 30px 0px rgba();
-  box-shadow: 2px 3px 30px 0px rgba();
+  -webkit-box-shadow: 1px 1px 10px 0px rgba();
+  -moz-box-shadow: 1px 1px 10px 0px rgba();
+  box-shadow: 1px 1px 10px 0px rgba();
   z-index: -12;
   overflow: hidden;
-  left: 109px;
-  top: 10px;
-        -webkit-animation: spin 2.5s linear infinite;
-    -moz-animation: spin 2.5s linear infinite;
-   animation: spin 2.5s linear infinite;
+  left: 111px;
+  top: 14px;
+        -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+   animation: spin 5s linear infinite;
    }
 
     @-moz-keyframes spin {
