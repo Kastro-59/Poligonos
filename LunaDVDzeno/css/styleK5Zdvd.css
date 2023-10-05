@@ -22,11 +22,11 @@ body {
 .cover-site {
     width: 420px;
 	height: 364px;
-	background: url(https://i.imgur.com/kLDcWI6.png) no-repeat;
+	background: url(https://i.imgur.com/z5b8tzu.png) no-repeat;
 	position: absolute;
 	background-size: cover;
 	position: absolute;
-	z-index: -4;
+	z-index: -11;
 }
 
 /* FONDO DESENFOQUE */
@@ -86,17 +86,17 @@ body {
 }
 
 #currentCoverArt {
-  width: 305px;
-  height: 305px;
+  width: 303px;
+  height: 303px;
   background: url(https://i.imgur.com/FCJxb2D.png)center no-repeat;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.8;
   position: absolute;
   border-radius: 100%;
   -webkit-box-shadow: 2px 3px 30px 0px rgba();
   -moz-box-shadow: 2px 3px 30px 0px rgba();
   box-shadow: 2px 3px 30px 0px rgba();
-  z-index: -3;
+  z-index: 2;
   overflow: hidden;
   left: 74px;
   top: 8px;
