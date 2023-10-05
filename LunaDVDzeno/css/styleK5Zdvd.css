@@ -22,11 +22,11 @@ body {
 .cover-site {
     width: 420px;
 	height: 364px;
-	background: url(https://i.imgur.com/z5b8tzu.png) no-repeat;
+	background: url() no-repeat;
 	position: absolute;
 	background-size: cover;
 	position: absolute;
-	z-index: -11;
+	z-index: -2;
 }
 
 /* FONDO DESENFOQUE */
@@ -96,7 +96,7 @@ body {
   -webkit-box-shadow: 2px 3px 30px 0px rgba();
   -moz-box-shadow: 2px 3px 30px 0px rgba();
   box-shadow: 2px 3px 30px 0px rgba();
-  z-index: 2;
+  z-index: -12;
   overflow: hidden;
   left: 74px;
   top: 8px;
