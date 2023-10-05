@@ -19,9 +19,9 @@
   overflow: hidden;
   left: 109px;
   top: 12px;
-    -webkit-animation: spin 5s linear infinite;
-    -moz-animation: spin 5s linear infinite;
-   animation: spin 5s linear infinite;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+   animation: spin 6s linear infinite;
   z-index: -3;
   
    }
