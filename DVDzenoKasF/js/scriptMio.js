@@ -1,4 +1,3 @@
-
  (function ($) {
     "use strict";
 	$.fn.icast = function (options) {
