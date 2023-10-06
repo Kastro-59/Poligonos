@@ -16,7 +16,7 @@
             show_listeners: true,    
             src: "",
             volume: 0.5,			
-            autoplay: true
+            autoplay: false,
         }, options);
         var thisObj;
         thisObj = this;
