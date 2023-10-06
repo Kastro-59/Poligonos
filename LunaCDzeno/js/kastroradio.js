@@ -36,5 +36,5 @@
   debug: "false",
   usestreamcorsproxy: "false", 
   corsproxy: "",
-  autoplay:"fake",
+  autoplay:"false",
     });
