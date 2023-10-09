@@ -7,7 +7,7 @@
   googlefont: "Saira+Condensed:wght@100",
   fontratio: "0.5",
   radioname: "Radio KAS",
-  scroll: "true",
+  scroll: "false",
   coverimage: "false",
   usevisualizer: "fake",
   coverstyle: "animated",
