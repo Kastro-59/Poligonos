@@ -315,6 +315,7 @@
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s; 
     transition: background 0.5s;
+    cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
    }
    .Kastrostreaming .stop-btn {
 	background: url(https://kastro-59.github.io/repros/STOP.png);
@@ -324,6 +325,7 @@
 	-webkit-transition: background 0.5s;
 	-moz-transition: background 0.5s; 
     transition: background 0.5s;
+    cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
    }
    .Kastrostreaming .icons-left-serv {
 	position: absolute;
@@ -435,7 +437,7 @@ left: 100%;
 	transform: rotate(360deg);
 	transform-origin: bottom;
 	-webkit-appearance: none;
-	cursor: pointer;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
 }
 .Kastrostreaming input[type=range]:focus {
 	outline: none;
@@ -448,7 +450,7 @@ left: 100%;
 	padding: 0;
 	border: 0;
 	border-radius: 8px;
-	cursor: pointer;	
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;	
 	animate: 0.2s;
 }
 .Kastrostreaming input[type=range]:focus::-webkit-slider-runnable-track {
@@ -461,7 +463,7 @@ left: 100%;
 	margin-top: -5px;
 	border: 2px solid #ff000d;
 	border-radius: 50%;
-	cursor: pointer;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
 	-webkit-appearance: none;
 }
 .Kastrostreaming input[type=range]::-moz-range-track {
@@ -472,7 +474,7 @@ left: 100%;
 	padding: 0;
 	border: 0;
 	border-radius: 8px;
-	cursor: pointer;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
 	animate: 0.2s; 
 }
 .Kastrostreaming input[type=range]::-moz-range-thumb {
@@ -481,7 +483,7 @@ left: 100%;
 	background: #ccc;
 	border: 5px solid #FFFFFF;
 	border-radius: 50%;
-	cursor: pointer;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	.Kastrostreaming input[type=range] {
@@ -490,7 +492,7 @@ left: 100%;
 		background: none;
 		margin-top: 0px;
 		padding: 6px 0px 6px 0px; 
-		cursor: pointer;
+		cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
 	}
 }
 .Kastrostreaming input[type=range]::-ms-tooltip {
@@ -505,7 +507,7 @@ left: 100%;
 	padding: 0;
 	border: 0;
 	border-color: transparent;
-	cursor: pointer;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
 	animate: 0.2s;  
 }
 .Kastrostreaming input[type=range]::-ms-fill-lower {
@@ -524,7 +526,7 @@ left: 100%;
 	background: #ccc;
 	border: 5px solid #FFFFFF;
 	border-radius: 50%;  
-	cursor: pointer;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
 }
 .Kastrostreaming input[type=range]:focus::-ms-fill-lower {
 	background: rgba(255,255,255,.);
