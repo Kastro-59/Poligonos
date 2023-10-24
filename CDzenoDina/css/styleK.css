@@ -754,7 +754,7 @@ left: 100%;
   animation: linear infinite;
   overflow: hidden;
   text-align: left;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-name: movement-smooth;
   animation-direction: normal;
 }
