@@ -34,7 +34,7 @@ body {
 #bgCover {
 	width: 382px;
 	height: 350px;
-	background:url(https://i.imgur.com/8hKOrou.png) center no-repeat ;
+	background:url() center no-repeat ;
 	background-size: cover;
 	position: absolute;
 	margin: -21px;
