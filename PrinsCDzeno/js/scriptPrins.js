@@ -5,12 +5,12 @@ const RADIO_NAME = 'Musical Sensations';
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY or AZURACAST. eg : spotify 
 var API_SERVICE = 'ITUNES';
 
-var zenoid = 'kd83asd0ra0uv'
+var zenoid = 'kd83asd0ra0u'
 
 var azuracast_nowplaying_url = ''
 
 // URL of SHOUTCast streaming without / on the final, eg: http://streaming.com:8080
-const URL_STREAMING = 'https://stream.zeno.fm/kd83asd0ra0uv';
+const URL_STREAMING = 'https://stream.zeno.fm/kd83asd0ra0u';
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
 const API_KEY = "722084e5ad8a078f47728ba92c01162e";
